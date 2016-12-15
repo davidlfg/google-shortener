@@ -1,0 +1,9 @@
+drupal.clipboard_form:
+  version: VERSION
+  js:
+    js/shortener.js: {}
+    /libraries/clipboard.js/dist/clipboard.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

@@ -1,0 +1,10 @@
+name: Google Shortener
+type: module
+description: Shorten your URL so it’s ready to be shared everywhere
+package: URL
+core: 8.x
+
+scripts:
+  - js/shortener.js
+
+configure: google_shortener.settings

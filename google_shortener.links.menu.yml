@@ -1,0 +1,5 @@
+google_shortener.settings:
+  title: 'Google Shortener Settings'
+  parent: system.admin_config_development
+  description: 'Settings to configure the google shortener.'
+  route_name: google_shortener.settings

@@ -1,0 +1,23 @@
+google_shortener.settings:
+  path: '/admin/config/development/settings'
+  defaults:
+    _form: '\Drupal\google_shortener\Form\GoogleShortenerSettingsForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'administer google shortener settings'
+
+google_shortener.credentials:
+  path: '/admin/config/development/credentials'
+  defaults:
+    _form: '\Drupal\google_shortener\Form\GoogleShortenerCredentialsForm'
+    _title: 'Credentials'
+  requirements:
+    _permission: 'administer google shortener settings'
+
+google_shortener.page:
+  path: 'shortener-url'
+  defaults:
+    _form: '\Drupal\google_shortener\Form\GoogleShortenerForm'
+    _title: 'URL Shortener'
+  requirements:
+    _permission: 'access content'

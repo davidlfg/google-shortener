@@ -1,0 +1,9 @@
+google_shortener.settings.tab:
+  title: 'Settings'
+  route_name: google_shortener.settings
+  base_route: google_shortener.settings
+
+google_shortener.credentials.tab:
+  title: 'Credentials'
+  route_name: google_shortener.credentials
+  base_route: google_shortener.settings

@@ -1,0 +1,5 @@
+google_shortener_api_key: ''
+google_shortener_label: 'Simplify your links'
+google_shortener_placeholder: Your original URL here
+google_shortener_submit: 'Shorten URL'
+google_shortener_description: 'All goo.gl URLs and click analytics are public and can be accessed by anyone'

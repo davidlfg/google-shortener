@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Module implementation file.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_help().
+ */
+function google_shortener_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'google_shortener.settings':
+      $output = '<p>' . t('Text help') . '</p>';
+      $output .= '<p>' . t('XXX.', ['@settings' => Url::fromRoute('google_shortener.settings')]) . '</p>';
+      return $output;
+
+    case 'google_shortener.credentials':
+      $output = '<p>' . t('Text help') . '</p>';
+      $output .= '<p>' . t('XXX.', ['@settings' => Url::fromRoute('google_shortener.settings')]) . '</p>';
+      return $output;
+
+    case 'help.page.google_shortener':
+      $output = '<p>' . t('Text help') . '</p>';
+      $output .= '<p>' . t('XXX.', ['@settings' => Url::fromRoute('google_shortener.settings')]) . '</p>';
+
+      return $output;
+  }
+  return NULL;
+}
